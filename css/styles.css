@@ -17,6 +17,7 @@ a:hover {
 .header-title {
   padding-top: .75rem;
   padding-bottom: .75rem;
+  vertical-align: middle;
 }
 
 .header-navbar {
@@ -52,8 +53,14 @@ a:hover {
   max-height: 100%;
 }
 
-.blog-title {
+.blog-title-outer {
+  display: flex;
   padding-left: 0 !important;
+}
+
+.blog-title-inner {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Page-body class tags  */
