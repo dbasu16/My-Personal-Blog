@@ -7,6 +7,10 @@ a:hover {
   color: #d3d3d3 !important;
 }
 
+table {
+  margin: auto auto;
+}
+
 /* Header class tags */
 
 .header {
@@ -85,9 +89,17 @@ a:hover {
   border-width: .25rem;
 }
 
+.contact-form {
+  text-align: center;
+}
+
 .contact-button-row {
-  width: 18.9514375rem;
-  text-align: right;
+  margin: .5rem auto;
+}
+
+.contact-button {
+  width: 4.1278125rem;
+  margin: auto .15rem;
 }
 
 .contact-button:hover {
