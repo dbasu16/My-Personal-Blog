@@ -1,0 +1,122 @@
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+a:hover {
+  color: #d3d3d3 !important;
+}
+
+/* Header class tags */
+
+.header {
+  background-color: grey;
+  color: white;
+}
+
+.header-title {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.header-navbar {
+  position: relative;
+}
+
+.header-links {
+  position: absolute;
+  bottom: .75rem;
+  right: .75rem;
+}
+
+.header-link-properties {
+  margin-left: .75rem;
+  color: white;
+}
+
+.profile-picture-frame {
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 0 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.profile-picture {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.blog-title {
+  padding-left: 0 !important;
+}
+
+/* Page-body class tags  */
+.page-body {
+  padding: 1rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.textarea-width {
+  width: 100%;
+}
+
+.cell-spacing {
+  border-color: #fff;
+  border-width: .25rem;
+}
+
+.contact-button-row {
+  width: 18.9514375rem;
+  text-align: right;
+}
+
+.contact-button:hover {
+  background-color: #d3d3d3;
+}
+
+/* Footer class tags */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  padding: .25rem 0;
+  bottom: 0;
+  background-color: #e9ecef;
+}
+
+.footer-content {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+}
+
+.footer-icons{
+  margin: .75rem .75rem;
+  font-size: 1.5rem;
+}
+
+.twitter-icon {
+  color: #1D9BF0;
+}
+
+.facebook-icon {
+  color: #0165E1;
+}
+
+.instagram-icon {
+  color: #C13584;
+}
